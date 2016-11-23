@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="#FFF"
+    app:cardCornerRadius="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_quanzi_jinxuan_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:textSize="16sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:scaleType="center"
+                android:id="@+id/iv_jiaoliu_1"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:scaleType="center"
+                android:layout_weight="1"
+                android:id="@+id/iv_jiaoliu_2"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:scaleType="center"
+                android:layout_weight="1"
+                android:id="@+id/iv_jiaoliu_3"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:layout_marginLeft="3dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="5dp">
+
+            <com.example.zouyingjun.quanzi.view.CircleImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/civ_quanzi_ziyuan"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:id="@+id/tv_quanzi_ziyaun_user"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="#AEAEAE"
+                android:layout_marginLeft="8dp"
+                android:textSize="12sp" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"></View>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_eye_pre" />
+
+            <TextView
+                android:id="@+id/tv_quanzi_ziyaun_eye"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="#AEAEAE"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_gravity="center_vertical"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_comment1" />
+
+            <TextView
+                android:id="@+id/tv_quanzi_ziyaun_comment"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="#AEAEAE"
+                android:textSize="12sp" />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+</FrameLayout>
+

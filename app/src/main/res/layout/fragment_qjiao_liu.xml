@@ -1,0 +1,20 @@
+<com.andview.refreshview.XRefreshView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/xrfv_jiaoliu"
+    app:isHeightMatchParent="true"
+    app:isWidthMatchParent="true"
+    android:background="@drawable/img_ing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:background="#FFF"
+        android:id="@+id/lv_jiaoliu"
+        android:scrollbars="none"
+        android:divider="#00000000"
+        android:dividerHeight="0dip"
+        android:listSelector="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+</com.andview.refreshview.XRefreshView>

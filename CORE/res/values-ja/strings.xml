@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CateLibrary</string>
+    <string name="btn_cancle">キャンセル</string>
+    <string name="btn_close">クローズ</string>
+    <string name="btn_commint">確認します</string>
+    <string name="error_net">現在のネットワークが利用できない、ネットワークの設定を確認してください</string>
+    <string name="pull_to_refresh_pull_label">プルダウンしてリフレッシュできる</string>
+    <string name="pull_to_refresh_refreshing_label">データをリフレッシュ中</string>
+    <string name="pull_to_refresh_release_label">リリースして直後にリフレッシュします</string>
+    <string name="tips_failedload">データの取得ができませんでした</string>
+    <string name="tips_loading">データを読み取るしようとしている、お待ちください</string>
+    <string name="tips_login">あなたはログインしていません</string>
+    <string name="tips_nodata">ああデータなし</string>
+    <string name="tips_pageending">最後のページです</string>
+    <string name="loading">アップロード中</string>
+    <string name="load_fail_click_retry">ローダができませんでした、クリックしてもう一度やり直してください</string>
+    <string name="loaded_all">全てローダしましたよ</string>
+</resources>

@@ -1,0 +1,6 @@
+# view res/layout/main.xml #generated:7
+-keep class com.fz.baseview.ForeverMarqueeTextView { <init>(...); }
+
+# onClick res/layout/view_titlebar.xml #generated:7
+-keepclassmembers class * { *** backPressed(...); }
+

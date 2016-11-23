@@ -1,0 +1,8 @@
+Quanzi.iws
+.idea/workspace.xml
+local.properties
+.gradle/
+.idea/
+build/
+app/build/
+*.iml

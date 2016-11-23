@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CateLibrary</string>
+    
+    
+    
+    <!-- 错误信息 -->
+    <string name="error_net">当前网络不可用，请检查一下网络设置</string>
+    
+    <!-- 提示 -->
+    <string name="tips_loading">正在努力读取数据，请稍后&#8230;</string>
+    <string name="tips_login">您还没有登录</string>
+    <string name="tips_pageending">已经是最后一页了</string>
+    <string name="tips_failedload">获取数据失败</string>
+    <string name="tips_nodata">暂时没有内容哦~</string>
+    
+    <!-- 按钮 -->
+    <string name="btn_commint">确认</string>
+    <string name="btn_cancle">取消</string>
+    <string name="btn_close">关闭</string>
+
+    <string name="loading">正在加载...</string>
+    <string name="load_fail_click_retry">加载失败，点击重试</string>
+    <string name="loaded_all">已经加载全部了哦</string>
+
+</resources>
